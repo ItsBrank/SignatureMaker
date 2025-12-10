@@ -50,7 +50,7 @@ namespace SignatureMaker
             GitHubLbl.Name = "GitHubLbl";
             GitHubLbl.Size = new System.Drawing.Size(255, 30);
             GitHubLbl.TabIndex = 10;
-            GitHubLbl.Text = "www.github.com/ItsBranK/SignatureMaker";
+            GitHubLbl.Text = "www.github.com/ItsBrank/SignatureMaker";
             GitHubLbl.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             GitHubLbl.Click += GitHubLbl_Click;
             // 
@@ -154,7 +154,7 @@ namespace SignatureMaker
             MinimizeBox = false;
             Name = "AboutFrm";
             StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            Text = "ItsBranK's Signature Maker - About";
+            Text = "ItsBrank's Signature Maker - About";
             TopMost = true;
             Load += AboutFrm_Load;
             ResumeLayout(false);

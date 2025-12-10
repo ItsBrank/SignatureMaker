@@ -4,8 +4,8 @@ namespace SignatureMaker.Framework
 {
     public static class Assembly
     {
-        private static readonly bool m_x64Bit = true;
-        private static readonly string m_title = "ItsBranK's Signature Maker";
+        private static readonly bool m_x64Bit = false;
+        private static readonly string m_title = "ItsBrank's Signature Maker";
         private static readonly string m_version = "2.8";
 
         public static bool Is64Bit() { return m_x64Bit; }

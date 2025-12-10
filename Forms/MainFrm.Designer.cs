@@ -193,7 +193,7 @@ namespace SignatureMaker
             PIDBx.Font = new System.Drawing.Font("Segoe UI", 9.75F);
             PIDBx.ForeColor = System.Drawing.Color.Black;
             PIDBx.Location = new System.Drawing.Point(316, 20);
-            PIDBx.Maximum = new decimal(new int[] { 100000, 0, 0, 0 });
+            PIDBx.Maximum = new decimal(new int[] { 10000000, 0, 0, 0 });
             PIDBx.Name = "PIDBx";
             PIDBx.Size = new System.Drawing.Size(64, 25);
             PIDBx.TabIndex = 5;
@@ -489,7 +489,7 @@ namespace SignatureMaker
             MaximizeBox = false;
             Name = "MainFrm";
             StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            Text = "ItsBranK's Signature Maker";
+            Text = "ItsBrank's Signature Maker";
             Load += MainFrm_Load;
             MenuCtrl.ResumeLayout(false);
             MenuCtrl.PerformLayout();
