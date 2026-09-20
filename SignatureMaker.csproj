@@ -1,19 +1,21 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
-    <TargetFramework>net9.0-windows10.0.17763.0</TargetFramework>
+    <TargetFramework>net10.0-windows10.0.17763.0</TargetFramework>
     <UseWindowsForms>true</UseWindowsForms>
     <Platforms>AnyCPU;x64;x86</Platforms>
     <ApplicationIcon>Search.ico</ApplicationIcon>
-    <Authors>ItsBranK</Authors>
+    <Authors>ItsBrank</Authors>
     <Description>Automatically generate signatures from an address, or compare your own array of bytes.</Description>
-    <Company>ItsBranK</Company>
-    <Copyright>ItsBranK</Copyright>
-    <PackageProjectUrl></PackageProjectUrl>
+    <Company>ItsBrank</Company>
+    <Copyright>ItsBrank</Copyright>
+    <PackageProjectUrl>https://github.com/ItsBrank/SignatureMaker/</PackageProjectUrl>
     <RepositoryUrl>https://github.com/ItsBranK/SignatureMaker</RepositoryUrl>
-    <AssemblyVersion>2.3.0.0</AssemblyVersion>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <SupportedOSPlatformVersion>10.0.17763.0</SupportedOSPlatformVersion>
+    <Title>Signature Maker</Title>
+    <PackageIcon>Search.png</PackageIcon>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
   </PropertyGroup>
   <ItemGroup>
     <Content Include="Search.ico" />
@@ -44,5 +46,11 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\Projects\Icons\Signature Maker\Search.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
   </ItemGroup>
 </Project>
